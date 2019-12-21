@@ -1,0 +1,117 @@
+@media only screen and (max-width: 1400px ) {
+    
+    .row { padding: 0 2%; }
+    
+    label { margin-left: 50px;  }
+    
+    .about { height: 93vh; }
+    
+}
+
+@media only screen and (max-width: 1024px ) {
+    
+     body { font-size: 21px; } /* B/c all our other font sizes were in percentages, all font sizes will be based off of this absolute measure */
+    
+    .new-post { width: 70%; }
+    
+    header { height: 90vh; }
+    
+    .about { height: 83vh; }
+    
+    
+}
+
+@media only screen and (max-width: 768px ) {
+    
+    body { 
+        font-size: 18px; 
+        font-weight: 400;
+    }
+    
+    .row { padding: 0 4%; }
+    
+    .col { width: 100%; }
+
+    .new-post { width: 90%; }
+    
+    header { height: 100vh; }
+    
+    div ul li { width: 100%; }
+    
+    .tablink { padding: 20px 1px; }
+    
+    .tabcontent { height: 370px}
+    
+    .tabcontent p:first-child { width: 100%; }
+    
+    .about { height: 80vh; } 
+    
+    .contact-form { width: 100%; }
+    
+    .form-header p { font-size: 83%;}
+    
+    label { margin-left: 0px; }
+    
+    input[type=submit] { 
+        width: 40%;
+        font-size: 104%;
+    }
+    
+    footer div .copyright { margin-bottom: 0;}
+    
+    footer div .links p { margin-right: 0; margin-top: 6.2% }
+    
+}
+
+@media only screen and (max-width: 481px ) {
+    
+    .btn-ghost {
+        text-align: center;
+    }
+    
+    header { height: 70vh; } 
+    
+      
+    
+    .new-post-content {
+        width: 90%;
+        font-size: 80%;
+        background: none;
+    }
+    
+    .new-post-content p {
+        display: none;
+    }
+    
+    .tablink { 
+        padding: 20px 0;
+        width: 100%
+    }
+    
+    .tabcontent {
+        height: 80vh;
+    }
+    
+    .tabcontent a {
+        width: 100%;
+        height: auto;
+    }
+    
+    .tabcontent p:last-of-type {
+        margin: 20px 0px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .about { height: 40%; }
+    
+    .section-form input, .section-form textarea {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+     
+    input[type=submit] { 
+        margin: 0 30%;
+    }
+    
+}

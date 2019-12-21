@@ -1,0 +1,446 @@
+/* Main color theme 
+
+color: #ffbf00;
+
+fonts: Limelight, Montserrat Alternates, Montserrat
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+     -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+html,
+body { /* For the whole project */
+    background-color: #101010;
+    font-size: 25px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    color: #fff;
+    font-weight: 300;
+    
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ----- Reusables ----- */
+
+h1 {
+     font-family: 'Limelight', Arial, sans-serif;
+     font-size: 200%;
+}
+
+h2 {
+    font-family: 'Montserrat Alternatives', sans-serif;
+    text-align: center;
+    font-size: 170%;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 78%;
+    line-height: 29px;
+    padding-top: 40px;
+}
+
+h4 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+}
+
+p, a, ul, figcaption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 78%;
+    line-height: 29px;
+}
+
+ul {
+    list-style: circle;
+}
+
+ul li ul {
+    font-size: 90%;
+    padding-left: 25px;
+    list-style: square;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: #ffbf00;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #ffbf00;
+    text-decoration-color: #ffbf00;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+blockquote {
+    font-size: 160%;
+    font-family: 'Montserrat Alternatives', sans-serif;
+    text-align: center;
+}
+
+blockquote span {
+    font-size: 240%;
+    font-family: 'Limelight'
+}
+
+figcaption {
+    text-align: center;
+    color: #aaaaaa;
+    font-size: 70%;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+/*----- Buttons -----*/
+
+.btn-ghost:link,
+.btn-ghost:visited,
+input[type=submit] {
+    color: #d8d8d8;
+    text-decoration: none;
+    padding: 12px;
+    font-family: 'Montserrat Alternatives', sans-serif;
+    font-size: 95%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#272727), to(#1d1d1d));
+    background-image: linear-gradient(#272727, #1d1d1d);
+    
+    -webkit-transition: border-color 0.2s, color 0.2s, background-image 0.4s;
+    
+    transition: border-color 0.2s, color 0.2s, background-image 0.4s;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    color: #ffbf00;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1d1d1d), to(#151515));
+    background-image: linear-gradient(#1d1d1d, #151515);
+    border-color: #ffbf00;
+}
+
+.btn-left {
+    float: left;
+}
+
+.btn-center {
+    margin-left: 40px;
+}
+
+.btn-right {
+    float: right;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------  Style for Home Page ----------------------------------------------------------------------------------------------------*/
+
+
+
+
+/* ---- The Header ---- */
+
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.2))), url(img/Title%20in%20DX11-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(img/Title%20in%20DX11-min.jpg);
+    
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/* Header Navigation */
+
+.top-nav {
+    border-bottom: 1.5px solid #fff;
+}
+
+.top-nav ul {
+    list-style: none;
+    color: #fff;
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+    
+    padding: 10px 13% 0px 13%;
+    height: 115px;
+}
+
+.top-nav ul li{
+    margin-left: 40px;
+    float: left
+}
+
+.top-nav ul li h1 {
+    color: #fff;
+}
+
+.top-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.top-nav ul li a:hover {
+    color: #ffbf00;
+}
+
+/*
+.categories-scroll {  Make this a waypoint thingy as you scroll down 
+    position: absolute;
+    top: 87%;
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90%;
+    padding: 33px 0;
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 0.4s;
+}
+
+.categories-scroll i {
+    color: #ffffff;
+    font-size: 150%;
+    margin: 20px;
+    
+}
+
+.categories-scroll:hover, 
+.categories-scroll:active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.categories-scroll a:link,
+.categories-scroll a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+}
+*/
+.new-post{
+    position: relative;
+    width: 56%;
+    height: auto;
+    margin: 75px auto 0px auto;
+}
+
+.new-post img {
+    display: block;
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+} 
+
+.new-post-content {
+    display: block;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    background: #000;
+    background: rgba(0, 0, 0, 0.5);
+    
+    width: 80%;
+    padding: 20px;
+    color: #fff;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.new-post-content:hover {
+    color: #ffbf00;
+}
+
+.new-post h2 {
+    margin-bottom: 5px;
+    font-size: 130%;
+    text-align: left;
+}
+
+.new-post a {
+    color: #d0d0d0;
+    text-decoration: none;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s
+}
+
+.new-post a:hover,
+.new-post a:active {
+    color: #ffbf00;
+}
+
+
+
+
+/* ---- Categories Section ---- */
+
+.tablink {
+    background-color: #555;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    width: 20%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 16px;
+    font-size: 80%;
+}
+
+.tablink:hover{
+    background-color: #777;
+}
+
+.tabcontent {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 500px;
+    background-color: #101010;
+}
+
+.tabcontent p {
+    font-size: 100%;
+    line-height: 150%;
+}
+.tabcontent p:first-child {
+    width: 80%;
+}
+
+.tabcontent a {
+    float: left;
+}
+
+.tabcontent p:last-of-type {
+    float: left;
+    display: inline-block;
+    margin: 16px 20px;
+    line-height: 100%;
+}
+
+#dlc p:last-of-type{
+    color: rgba(112, 112, 112, 0.56);
+    
+}
+
+/* ---- About Section ---- */
+
+.about {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/about-background-image-min.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/about-background-image-min.png);
+    background-position: left;
+    background-size: cover;
+    height: 80vh;
+    background-attachment: fixed;
+}
+
+.about div h2 {
+    color: #cecece;
+    margin-top: 50px;
+}
+
+.about div p {
+    color: #cecece;
+    width: 70%;
+    line-height: 150%;
+    margin: 40px auto 20px auto;
+}
+
+
+/* ---- Contact Form ---- */
+
+.section-form {
+    color: white;
+    background-color: #101010;
+}
+
+.form-header h2 {
+    margin: 50px auto 20px auto;
+}
+
+.form-header p {
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 130%; 
+}
+
+.contact-form {
+    width: 63%;
+    margin: 20px auto;
+}
+
+.contact-form label {
+    text-align: left;
+}
+
+label {
+    margin-left: 90px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90%
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    background-color: #101010;
+    margin: 0 auto;
+    cursor: pointer;
+    border: none;
+}
+
+.form-messages {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.success {
+    background-color: rgba(255, 191, 0, 0.52);
+}
+
+.error {
+    background-color: rgba(165, 42, 42, 0.52);
+}

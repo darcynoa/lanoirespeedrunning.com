@@ -1,0 +1,87 @@
+/* ----- Top row (header) ----- */
+
+
+.top-nav {
+    border-bottom: 1.5px solid #fff;
+}
+
+.top-nav h1 {
+    color: #fff;
+    text-align: center;
+}
+
+/*----- Main Block -----*/
+
+.main {
+    background-color: #101010;
+}
+
+.main-head {
+    margin: 30px;
+    text-align: center;
+}
+
+.main-head img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.quick-nav-header {
+    margin: 20px 0px;
+
+}
+
+.quick-nav-links {
+    list-style: none;
+    outline-style: none;
+    padding: 0;
+}
+
+.main-text {
+    background-color: #191919;
+    padding: 20px 50px;
+}
+
+.main-text p {
+    margin: 26px 0;
+}
+
+.main-text .end-p {
+    margin-bottom: 100px;
+}
+
+.main-text .note-p {
+    color: #717171;
+}
+
+.bottom-nav {
+    margin-bottom: 20px;
+}
+/*--- Media Queries ---*/
+@media only screen and (max-width: 768px) {
+
+    .main-text .col {
+        width: 100%;
+        margin: 0;
+    }
+
+    .bottom-nav a {
+        margin: 0 15%;
+        width: 70%;
+    }
+
+    .btn-right {
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .main-head img {
+        width: 200%;
+        margin-left: -50%;
+    }
+
+}

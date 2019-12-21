@@ -1,0 +1,83 @@
+<!doctype html>
+
+
+<html>
+    
+    <head>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+
+    <style>
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#272727), to(#1d1d1d));
+            background-image: linear-gradient(#272727, #1d1d1d);
+            background-color: rgba(232, 174, 0, 0.61);
+            color: #d8d8d8;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+
+            -webkit-transition: border-color 0.2s, color 0.2s, background-image 0.4s;
+
+            transition: border-color 0.2s, color 0.2s, background-image 0.4s;
+        }
+
+        #myBtn:hover {
+            color: #ffbf00;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#1d1d1d), to(#151515));
+            background-image: linear-gradient(#1d1d1d, #151515);
+            border-color: #ffbf00;
+        }
+        
+        @media only screen and (max-width: 481px ) {
+            
+            #myBtn {
+                padding: 12px;
+                right: 10px;
+                font-size: 12px;
+            }
+            
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#8679;</button>
+
+
+</body>
+
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    var quickNav = document.getElementById("scrollToHere");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > quickNav.offsetTop || document.documentElement.scrollTop > quickNav.offsetTop) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the quick navigation
+    function topFunction() {
+        
+        quickNav.scrollIntoView();
+    }
+</script></html>

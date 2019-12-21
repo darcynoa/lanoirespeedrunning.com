@@ -1,0 +1,64 @@
+div {
+    height: 100vh;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.2))) ,url(img/coming%20soon.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)) ,url(img/coming%20soon.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div a:link, 
+div a:visited,
+div a:active,
+p {
+    text-align: center;
+    margin-top: 10%; 
+    width: 40%;
+    height: 20%;
+    font-size: 250%;
+    line-height: 150%;
+    position: absolute;
+    left: 30%;
+    color: #fff;
+    text-decoration: none;
+    
+    -webkit-transition: color 0.3s;
+    
+    transition: color 0.3s;
+}
+
+div a:hover {
+    color: #ffbf00;
+}
+
+.coming-soon-text {
+    top: 40%;
+}
+
+@media only screen and (max-width: 1024px ) {
+    body { font-size: 20px;}
+}
+
+@media only screen and (max-width: 768px ) {
+    body { font-size: 18px;}
+}
+
+@media only screen and (max-width: 435px ) {
+    
+    body { font-size: 12.5px; }
+    
+    div a { padding-top: 40px }
+    div p { padding-top: 50px}
+    
+    div { background-position: 600px; }
+
+}
+@media only screen and (max-width: 321px ) {
+    
+    body { font-size: 10.5px; }
+    
+    div a { padding-top: 60px }
+    
+    div { background-position: 600px; }
+
+}
+
