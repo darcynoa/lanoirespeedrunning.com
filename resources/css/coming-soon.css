@@ -4,6 +4,8 @@ div {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5 )) ,url(img/coming%20soon.jpg);
     background-size: cover;
     background-position: center;
+    font-weight: 300;
+    font-size: 150%;  
 }
 
 div a:link, 
@@ -18,20 +20,22 @@ p {
     line-height: 150%;
     position: absolute;
     left: 30%;
+    top: 10%;
     color: #fff;
     text-decoration: none;
+    letter-spacing: 0px;
     
     -webkit-transition: color 0.3s;
-    
-    transition: color 0.3s;
+    transition: color 0.3s, letter-spacing 2s;
 }
 
 div a:hover {
     color: #ffbf00;
+    letter-spacing: 2px;
 }
 
-.coming-soon-text {
-    top: 40%;
+span {
+    display: block;
 }
 
 @media only screen and (max-width: 1024px ) {
