@@ -25,13 +25,13 @@ p {
     text-decoration: none;
     letter-spacing: 0px;
     
-    -webkit-transition: color 0.3s;
-    transition: color 0.3s, letter-spacing 2s;
+    -webkit-transition: color 0.5s, letter-spacing 1s;
+    transition: color 0.5s, letter-spacing 1s;
 }
 
 div a:hover {
     color: #ffbf00;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
 
 span {
