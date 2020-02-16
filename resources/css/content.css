@@ -1,3 +1,11 @@
+/*
+
+<span style="color:#3cdb4e;">A</span>
+
+<span style="color:#5598ba;">X</span>
+
+*/
+
 /* ----- Top row (header) ----- */
 
 
@@ -62,6 +70,12 @@
 
 figure div ul {
     list-style-position: inside;
+}
+
+ol {
+    list-style-position: inside;
+    padding-left: 30px;
+    padding-bottom: 20px;
 }
 
 /*--- Media Queries ---*/

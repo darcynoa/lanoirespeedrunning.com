@@ -22,7 +22,7 @@ linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2))
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),url(img/Traffic/any%25/the-drivers-seat/Morgan1-min.jpg);
     background-size:cover;
     background-position: bottom;
-    height: 50vh;
+    height: 40vh;
     font-size: 110%;
 }
 
@@ -61,6 +61,13 @@ linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2))
 .mccoll {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),url(img/Traffic/any%25/the-fallen-idol/mrs-bishop-min.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/Homicide/any%25/red-lipstick-murder/McColl.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 40vh;
+}
+
+.jacob {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/Homicide/any%25/red-lipstick-murder/jacob.jpg);
     background-size: cover;
     background-position: top;
     height: 40vh;

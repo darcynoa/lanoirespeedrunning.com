@@ -59,7 +59,7 @@ h4 {
     font-weight: 400;
 }
 
-p, a, ul, figcaption {
+p, a, ul, ol, figcaption {
     font-family: 'Montserrat', sans-serif;
     font-size: 78%;
     line-height: 29px;
@@ -68,6 +68,8 @@ p, a, ul, figcaption {
 ul {
     list-style: circle;
 }
+
+
 
 ul li ul {
     font-size: 90%;
