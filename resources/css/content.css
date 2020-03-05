@@ -6,6 +6,13 @@
 
 */
 
+/* ----- Font faces ----- */
+
+@font-face {
+    src: url(resources/fonts/Letter-Sketch.ttf). format()
+} 
+
+
 /* ----- Top row (header) ----- */
 
 
