@@ -1,35 +1,38 @@
-div {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     height: 100vh;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.2))) ,url(img/coming%20soon.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5 )) ,url(img/coming%20soon.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    font-weight: 300;
-    font-size: 150%;  
+    position: relative;
 }
 
-div a:link, 
-div a:visited,
-div a:active,
+a:link,
+a:visited,
+a:active,
 p {
-    text-align: center;
-    margin-top: 10%; 
-    width: 40%;
-    height: 20%;
-    font-size: 250%;
-    line-height: 150%;
     position: absolute;
-    left: 30%;
-    top: 10%;
+    top: 30%;
+    left: 35%;
+    font-size: 350%;
+    line-height: 150%;
     color: #fff;
     text-decoration: none;
+    text-align: center;
     letter-spacing: 0px;
     
     -webkit-transition: color 0.5s, letter-spacing 1s;
     transition: color 0.5s, letter-spacing 1s;
 }
 
-div a:hover {
+a:hover {
     color: #ffbf00;
     letter-spacing: 1.5px;
 }
@@ -39,30 +42,23 @@ span {
 }
 
 @media only screen and (max-width: 1024px ) {
-    body { font-size: 20px;}
+    body {
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width: 768px ) {
-    body { font-size: 18px;}
+    body { font-size: 18px; }
+    a {  }
 }
 
-@media only screen and (max-width: 435px ) {
+@media only screen and (max-width: 480px ) {
     
     body { font-size: 12.5px; }
-    
-    div a { padding-top: 40px }
-    div p { padding-top: 50px}
-    
-    div { background-position: 600px; }
 
 }
 @media only screen and (max-width: 321px ) {
     
     body { font-size: 10.5px; }
-    
-    div a { padding-top: 60px }
-    
-    div { background-position: 600px; }
-
 }
 
