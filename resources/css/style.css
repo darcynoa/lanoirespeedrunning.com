@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Montserrat Alternatives', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 170%;
 }
@@ -175,7 +175,7 @@ header {
     background-size: cover;
     background-position: top;
     height: 100vh;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 /* Header Navigation */
@@ -216,38 +216,7 @@ header {
     color: #ffbf00;
 }
 
-/*
-.categories-scroll {  Make this a waypoint thingy as you scroll down 
-    position: absolute;
-    top: 87%;
-    text-align: center;
-    width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 90%;
-    padding: 33px 0;
-    background-color: rgba(255, 255, 255, 0);
-    transition: background-color 0.4s;
-}
 
-.categories-scroll i {
-    color: #ffffff;
-    font-size: 150%;
-    margin: 20px;
-    
-}
-
-.categories-scroll:hover, 
-.categories-scroll:active {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.categories-scroll a:link,
-.categories-scroll a:visited {
-    color: white;
-    text-decoration: none;
-    font-size: 150%;
-}
-*/
 .new-post{
     position: relative;
     width: 56%;
@@ -303,6 +272,11 @@ header {
 
 
 /* ---- Categories Section ---- */
+
+#category-header {
+    padding: 20px 20px 40px 20px;
+    background-color: #050505;
+}
 
 .tablink {
     background-color: #555;
@@ -406,7 +380,7 @@ header {
 label {
     margin-left: 90px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 90%
+    font-size: 90%;
 }
 
 input[type=text],

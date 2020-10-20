@@ -10,6 +10,11 @@ linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2))
     background-repeat: no-repeat;
     padding-left: 50px;
     font-size: 100%;
+    background-size: cover;
+    background-position: top;
+    border: 1px solid #444;
+    border-radius: 10px;
+    height: 50vh;
 }
 
 .interrogation li {
@@ -22,7 +27,6 @@ linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2))
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),url(img/Traffic/any%25/the-drivers-seat/Morgan1-min.jpg);
     background-size:cover;
     background-position: bottom;
-    height: 40vh;
     font-size: 110%;
 }
 
@@ -31,7 +35,6 @@ linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2))
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),url(img/Traffic/any%25/a-marriage-made-in-heaven/mrspattison-min.jpg);
     background-size: cover;
     background-position: top;
-    height: 40vh;
     padding-top: 50px;
 }
 
@@ -73,6 +76,84 @@ linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2))
     height: 40vh;
 }
 
+.michelle {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/the-golden-butterfly/michelle.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 40vh;
+}
+
+.hugo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/the-golden-butterfly/hugo-at-residence.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 40vh;
+}
+
+.hugo-central {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/the-golden-butterfly/hugo-at-central2.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 80vh;
+}
+
+.angel {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/silk-stocking-murder/angel.jpg);
+    height: 40vh;
+    background-position: top;
+}
+
+.clem {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/silk-stocking-murder/clem.jpg);
+    height: 30vh;
+    background-position: top;
+}
+
+.barton {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/white-shoe-slaying/barton.jpg);
+    height: 30vh;
+    background-position: top;
+}
+
+.lars {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/white-shoe-slaying/lars.jpg);
+    height: 55vh;
+    background-position: top;
+}
+
+.stuart {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/white-shoe-slaying/stuart.jpg);
+    background-position: top;
+}
+
+.mccaffreyMenschs {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/studio-secretary-murder/mccaffrey-menschs.jpg);
+    height: 50vh;
+
+}
+
+.robbins {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/studio-secretary-murder/robbins.jpg);
+    height: 50vh;
+    background-position: right top;
+}
+
+.tiernan1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/studio-secretary-murder/tiernan1.jpg);
+    height: 50vh;
+}
+
+.mccaffreyCentral {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/studio-secretary-murder/mccaffrey-central.jpg);
+    height: 50vh;
+}
+
+.tiernan2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/studio-secretary-murder/tiernan2.jpg);
+    height: 60vh;
+    background-position: right;
+}
+
 @media only screen and (max-width: 768px ) {
     .interrogation { height: 50vh; }
     
@@ -112,4 +193,18 @@ linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2))
     .bishop {
         background-position: 57%;
     }
+
+    .hugo-central {
+        height: 70vh;
+        background-position: 60%;
+    }
+
+    .lars {
+        height: 70vh;
+    }
+
+    .tiernan2 {
+        background-position: 70%;
+    }
+
 }

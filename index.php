@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- This is the PHP file of the index -->
 <head>
 
     <meta charset="utf-8">
@@ -99,7 +99,7 @@
 
             <p>
 
-                The Any% run is your typical speedrun: getting to the end of the story or campaign as fast as possible. This run is the shortest because of its use of driving and action skips.
+                The Any% run is your typical speedrun: getting to the end of the story or campaign as fast as possible. Any% is about manipulating every possible concept about the game to get to the end as fast as possible.
 
             </p>
             <br>

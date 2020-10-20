@@ -9,8 +9,8 @@
   top: 0; /* Stay at the top */
   left: 0;
   background-color: rgba(39, 39, 39); /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    overflow-y: auto;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-y: auto;
   padding-top: 60px; /* Place content 60px from the top */
   -webkit-transition: 0.5s;
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -61,13 +61,6 @@
     z-index: '0.999';
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 480px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-    
-    .btn-sidenav { padding: 10px; }
-}
 
 .accordion, .subaccordion {
     border: none;
@@ -162,10 +155,12 @@
     }
 }
 
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
 @media only screen and (max-width: 481px ) {
     .btn-sidenav { 
         padding: 15px 20px 20px 10px;
-        font-size: 100%;
+        font-size: 140%;
         z-index: 1;
     }
     

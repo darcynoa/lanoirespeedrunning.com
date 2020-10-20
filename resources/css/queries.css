@@ -34,7 +34,7 @@
 
     .new-post { width: 90%; }
     
-    header { height: 100vh; }
+    header { height: 90vh; }
     
     div ul li { width: 100%; }
     
@@ -69,9 +69,12 @@
         text-align: center;
     }
     
-    header { height: 70vh; } 
-    
-      
+    header {
+        height: 54vh;
+        background-size: 150%;
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+    }
     
     .new-post-content {
         width: 90%;
