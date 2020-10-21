@@ -1,12 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 body {
     height: 100vh;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.2))) ,url(img/coming%20soon.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5 ))) ,url(img/coming%20soon.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5 )) ,url(img/coming%20soon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,11 +17,10 @@ body {
 
 a:link,
 a:visited,
-a:active,
-p {
-    position: absolute;
-    top: 30%;
-    left: 35%;
+a:active, p
+{
+    width: 100%;
+    margin: 10% 50%;
     font-size: 350%;
     line-height: 150%;
     color: #fff;
@@ -37,8 +37,8 @@ a:hover {
     letter-spacing: 1.5px;
 }
 
-span {
-    display: block;
+p {
+    margin: 0;
 }
 
 @media only screen and (max-width: 1024px ) {
@@ -49,13 +49,11 @@ span {
 
 @media only screen and (max-width: 768px ) {
     body { font-size: 18px; }
-    a {  }
 }
 
 @media only screen and (max-width: 480px ) {
-    
     body { font-size: 12.5px; }
-
+    p { font-size: 250%; }
 }
 @media only screen and (max-width: 321px ) {
     
