@@ -34,6 +34,8 @@
 
     .new-post { width: 90%; }
     
+    .new-post-content { left: 40px; bottom: 20px;}
+
     header { height: 90vh; }
     
     div ul li { width: 100%; }
@@ -44,7 +46,7 @@
     
     .tabcontent p:first-child { width: 100%; }
     
-    .about { height: 80vh; } 
+    .about { height: 40%; }
     
     .contact-form { width: 100%; }
     
@@ -70,16 +72,20 @@
     }
     
     header {
-        height: 54vh;
+        height: 100vh;
         background-size: 150%;
         background-repeat: no-repeat;
         background-position: 50% 100%;
     }
     
+    .new-post img { border: 1px solid #444; }
+
     .new-post-content {
         width: 90%;
         font-size: 80%;
-        background: none;
+        bottom: 142px;
+        left: 18px;
+        padding: 10px;
     }
     
     .new-post-content p {
@@ -117,4 +123,11 @@
         margin: 0 30%;
     }
     
+}
+
+@media only screen and (max-width: 376px) {
+    .new-post-content {
+        left: 17px;
+        bottom: 119px;
+    }
 }

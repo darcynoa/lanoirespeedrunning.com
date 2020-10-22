@@ -62,7 +62,7 @@ linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2))
     height: 40vh;
 }
 .mccoll {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),url(img/Traffic/any%25/the-fallen-idol/mrs-bishop-min.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),url(img/Homicide/any%25/red-lipstick-murder/McColl.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/Homicide/any%25/red-lipstick-murder/McColl.jpg);
     background-size: cover;
     background-position: top;
@@ -70,6 +70,7 @@ linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2))
 }
 
 .jacob {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),url(img/Homicide/any%25/red-lipstick-murder/jacob.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/Homicide/any%25/red-lipstick-murder/jacob.jpg);
     background-size: cover;
     background-position: top;
@@ -77,6 +78,7 @@ linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2))
 }
 
 .michelle {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/Homicide/any%25/the-golden-butterfly/michelle.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/the-golden-butterfly/michelle.jpg);
     background-size: cover;
     background-position: top;
@@ -84,6 +86,7 @@ linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2))
 }
 
 .hugo {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/Homicide/any%25/the-golden-butterfly/hugo-at-residence.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/the-golden-butterfly/hugo-at-residence.jpg);
     background-size: cover;
     background-position: top;
@@ -91,6 +94,7 @@ linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2))
 }
 
 .hugo-central {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/Homicide/any%25/the-golden-butterfly/hugo-at-central2.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/the-golden-butterfly/hugo-at-central2.jpg);
     background-size: cover;
     background-position: top;
@@ -98,57 +102,67 @@ linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2))
 }
 
 .angel {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/Homicide/any%25/silk-stocking-murder/angel.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/silk-stocking-murder/angel.jpg);
     height: 40vh;
     background-position: top;
 }
 
 .clem {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/Homicide/any%25/silk-stocking-murder/clem.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/silk-stocking-murder/clem.jpg);
     height: 30vh;
     background-position: top;
 }
 
 .barton {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/Homicide/any%25/white-shoe-slaying/barton.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/white-shoe-slaying/barton.jpg);
     height: 30vh;
     background-position: top;
 }
 
 .lars {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/Homicide/any%25/white-shoe-slaying/lars.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/white-shoe-slaying/lars.jpg);
     height: 55vh;
     background-position: top;
 }
 
 .stuart {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/Homicide/any%25/white-shoe-slaying/stuart.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/white-shoe-slaying/stuart.jpg);
     background-position: top;
 }
 
 .mccaffreyMenschs {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/Homicide/any%25/studio-secretary-murder/mccaffrey-menschs.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/studio-secretary-murder/mccaffrey-menschs.jpg);
     height: 50vh;
 
 }
 
 .robbins {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/Homicide/any%25/studio-secretary-murder/robbins.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/studio-secretary-murder/robbins.jpg);
     height: 50vh;
     background-position: right top;
 }
 
 .tiernan1 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/Homicide/any%25/studio-secretary-murder/tiernan1.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/studio-secretary-murder/tiernan1.jpg);
     height: 50vh;
 }
 
 .mccaffreyCentral {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/Homicide/any%25/studio-secretary-murder/mccaffrey-central.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/studio-secretary-murder/mccaffrey-central.jpg);
     height: 50vh;
 }
 
 .tiernan2 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/Homicide/any%25/studio-secretary-murder/tiernan2.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Homicide/any%25/studio-secretary-murder/tiernan2.jpg);
     height: 60vh;
     background-position: right;
@@ -162,6 +176,8 @@ linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2))
     .jessica { background-position: right; }
     
     .bishop { background-position: -45px; }
+
+    .robbins { height: 80vh; }
 }
 
 @media only screen and (max-width: 480px ) {
@@ -203,8 +219,11 @@ linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2))
         height: 70vh;
     }
 
+    .robbins { background-position: 66%; }
+
     .tiernan2 {
         background-position: 70%;
+        height: 70vh;
     }
 
 }
