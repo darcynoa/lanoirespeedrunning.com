@@ -272,10 +272,37 @@ header {
 
 /* ---- Categories Section ---- */
 
-#category-header {
-    padding: 20px 20px 40px 20px;
-    background-color: #050505;
+.category-header {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 110%;
 }
+
+.category-img {
+    transform: rotateY(0deg);
+    transition: .5s;
+}
+
+.category-img-container {
+    position: relative;
+
+}
+
+#test1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 99%;
+    width: 55%;
+    margin: 0 212px;
+    opacity: 2;
+    background-color: #000;
+    border-radius: 100%;
+    transform: rotateY(90deg);
+    transition: 1s;
+}
+
+
 
 .tablink {
     background-color: #555;
