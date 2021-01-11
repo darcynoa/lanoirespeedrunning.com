@@ -23,9 +23,4 @@
 //
 //document.getElementById("defaultOpen").click();
 
-document.querySelector('.category-img').addEventListener("click", function()
-{
-    document.querySelector('.category-img').style.transform = "rotateY(90deg)";
-    console.log("Rotated")
-    document.querySelector('#test1').style.transform = "rotateY(180deg)";
-});
+

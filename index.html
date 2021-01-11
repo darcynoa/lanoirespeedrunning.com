@@ -36,8 +36,9 @@
 
 <body>
 
-    <header>
+    <!-- HEADER SECTION -->
 
+    <header>
 
         <div class="row top-nav">
 
@@ -65,15 +66,9 @@
 
         </div>
 
-        <!--<div class="row categories-scroll">
-
-                <i class="icon ion-md-arrow-down categories-icon"></i>
-                <a href="#categories">Check out some of the categories to get started!</a>
-                <i class="icon ion-md-arrow-down"></i>
-
-            </div>-->
-
     </header>
+
+    <!-- CATEGORIES SECTION -->
 
     <section class="categories">
 
@@ -82,8 +77,8 @@
                Speedrunning Categories
            </h2>
 
-           <h4 style="text-align: center; color: #ddd; margin: 10px 0px;">
-               Categories include common speedrunning categories, as well as some unique to L.A. Noire. Explore and see what you like!
+           <h4 style="text-align: center; color: #ddd; margin: 10px auto; width: 60%;">
+               Categories include common speedrunning categories, as well as some unique to L.A. Noire. Explore by clicking on the badges (hold/click for mobile) and see what you like!
            </h4>
 
        </div>
@@ -93,136 +88,80 @@
               <h3 class="category-header"> Any% </h3>
               <div class="category-img-container">
                   <img src="resources/img/category-icons/any.png" class="category-img">
-                  <div id="test1">
-
-                  </div>
+                  <a href="any%25.html">
+                      <div id="category-desc">
+                          <p>The most common speedrunning category in any game, best for anyone just getting started!</p>
+                      </div>
+                  </a>
               </div>
            </div>
            <div class="col span-1-of-2" id="5star">
               <h3 class="category-header"> 5 Star% </h3>
               <div class="category-img-container">
                   <img src="resources/img/category-icons/5star.png" class="category-img">
+                  <a href="5star%25.html" >
+                      <div id="category-desc">
+                          <p>Goal is to finish every case with a 5 Star rating as fast as possible!</p>
+                      </div>
+                  </a>
+
               </div>
            </div>
        </div>
        <div class="row category-row">
            <div class="col span-1-of-2" id="1002">
               <h3 class="category-header"> 100% </h3>
-              <img src="resources/img/category-icons/100.png" class="category-img">
+              <div class="category-img-container">
+                  <img src="resources/img/category-icons/100.png" class="category-img">
+                  <a href="100%25.html">
+                      <div id="category-desc">
+                          <p>Getting 100% completion in the game as fast as possible! It may not be true 100% but it's what the game counts as 100%!</p>
+                      </div>
+                  </a>
+              </div>
            </div>
            <div class="col span-1-of-2" id="noskips">
               <h3 class="category-header"> No Skips </h3>
-              <img src="resources/img/category-icons/no-skips.png" class="category-img">
+              <div class="category-img-container">
+                  <img src="resources/img/category-icons/no-skips.png" class="category-img">
+                  <a href="noskips.html">
+                      <div id="category-desc">
+                          <p>
+                              A modifier to any speedrun that doesn't allow action sequence skips and driving skips that make any speedrun more challenging!
+                          </p>
+                      </div>
+                  </a>
+              </div>
            </div>
        </div>
        <div class="row category-row">
            <div class="col span-1-of-2" id="dlc2">
               <h3 class="category-header"> DLC </h3>
-              <img src="resources/img/category-icons/dlc.png" class="category-img">
+              <div class="category-img-container">
+                  <img src="resources/img/category-icons/dlc.png" class="category-img">
+                  <a href="dlc.html">
+                      <div id="category-desc">
+                          <p>Another modifier that implements the DLC cases within any of the speedrunning categories</p>
+                      </div>
+                  </a>
+              </div>
            </div>
            <div class="col span-1-of-2" id="other">
               <h3 class="category-header"> Misc. </h3>
-              <img src="resources/img/category-icons/other.png" class="category-img">
+              <div class="category-img-container">
+                  <img src="resources/img/category-icons/other.png" class="category-img">
+                  <a href="coming-soon.html">
+                      <div id="category-desc">
+                          <p>Miscellaneous categories that don't necessarily fit the mold of the other categories</p>
+                      </div>
+                  </a>
+              </div>
            </div>
        </div>
 
     </section>
 
-
-
-<!--
-    <section class="categories" id="categories">
-
-
-        <button class="tablink" onclick="openPage('any', this, '#101010')" id="defaultOpen">
-            Any%
-        </button><button class="tablink" onclick="openPage('five-stars', this, '#101010')">
-            5 Stars%
-        </button><button class="tablink" onclick="openPage('100', this, '#101010')">
-            100%
-        </button><button class="tablink" onclick="openPage('no-skips', this, '#101010')">
-            No Skips Runs
-        </button><button class="tablink" onclick="openPage('dlc', this, '#101010')">
-            DLC Runs
-        </button>
-
-        <div id="any" class="tabcontent">
-
-            <p>
-
-                The Any% run is your typical speedrun: getting to the end of the story or campaign as fast as possible. This run is the shortest because of its use of driving and action skips.
-
-            </p>
-            <br>
-            <br>
-            <a href="any%25.html" class="btn-ghost"> Learn more! </a>
-            <p>or</p>
-            <a href="any%25-the-drivers-seat.html" class="btn-ghost"> Start on the first case! </a>
-
-        </div>
-
-        <div id="five-stars" class="tabcontent">
-
-            <p>
-
-                5 Stars% follows the same rules as the Any% run, but you must complete 5 stars with every case. It doesn’t actually involve getting every clue or asking every question, but just enough to get a 5 star rating.
-
-            </p>
-            <br>
-            <br>
-
-            <a href="5star%25.html" class="btn-ghost"> Learn more! </a>
-            <p>or</p>
-            <a href="coming-soon.html" class="btn-ghost"> Start on the first case! </a>
-
-        </div>
-
-        <div id="100" class="tabcontent">
-
-            <p>
-
-                100% is exactly what it sounds like, achieve 100% in the game in the fastest time by completing all the cases, all the side missions, and all the collectibles.
-
-            </p>
-            <br>
-            <br>
-            <a href="100%25.html" class="btn-ghost"> Learn more! </a>
-            <p>or</p>
-            <a href="coming-soon.html" class="btn-ghost"> Start on the first case! </a>
-
-        </div>
-
-        <div id="no-skips" class="tabcontent">
-
-            <p>
-
-                No Skips is a variation on all the main categories, where now the driving and action cannot be skipped and must be completed. This will have the more classic GTA speedrunning feeling.
-
-            </p>
-            <br>
-            <br>
-            <a href="noskips.html" class="btn-ghost"> Learn more! </a>
-            <p>or</p>
-            <a href="coming-soon.html" class="btn-ghost"> Start on the first case! </a>
-
-        </div>
-
-        <div id="dlc" class="tabcontent">
-
-            <p>
-
-                There’s a way to turn this off if you bought L.A. Noire through Steam, but if you have a remastered version on console or just feel like it, then this is for you.
-
-            </p>
-            <br>
-            <br>
-            <a href="dlc.html" class="btn-ghost"> Learn more! </a>
-            <p>*DLC cases will be embedded within the guides of all runs*</p>
-
-        </div>
-
-    </section>
--->
+    <!-- ABOUT SECTION -->
 
     <section class="about">
 
@@ -255,6 +194,8 @@
 
 
     </section>
+
+    <!-- FEEDBACK SECTION -->
 
     <section class="section-form" id="feedback">
 
@@ -330,7 +271,6 @@
     </section>
 
     <footer id="footer">
-
 
     </footer>
 

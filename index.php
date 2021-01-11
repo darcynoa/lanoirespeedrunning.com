@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- This is the PHP file of the index -->
+
 <head>
 
     <meta charset="utf-8">
@@ -19,8 +19,6 @@
     <link href="https://fonts.googleapis.com/css?family=Limelight&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:200,300,300italic,400,400italic,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300italic,400,400italic,500&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/ionicons@4.5.10-1/dist/css/ionicons.min.css" rel="stylesheet">
-
 
     <!-- Favicon stuff -->
     <link rel="apple-touch-icon" sizes="76x76" href="resources/favicons/apple-touch-icon.png">
@@ -38,8 +36,9 @@
 
 <body>
 
-    <header>
+    <!-- HEADER SECTION -->
 
+    <header>
 
         <div class="row top-nav">
 
@@ -67,110 +66,102 @@
 
         </div>
 
-        <!--<div class="row categories-scroll">
-            
-                <i class="icon ion-md-arrow-down categories-icon"></i>
-                <a href="#categories">Check out some of the categories to get started!</a>
-                <i class="icon ion-md-arrow-down"></i>
-            
-            </div>-->
-
     </header>
 
+    <!-- CATEGORIES SECTION -->
 
+    <section class="categories">
 
-    <section class="categories" id="categories">
-        <h4></h4>
-        <!-- Putting buttons together like this will leave no space in the preview -->
+       <div class="row">
+           <h2 style="margin: 40px;">
+               Speedrunning Categories
+           </h2>
 
-        <button class="tablink" onclick="openPage('any', this, '#101010')" id="defaultOpen">
-            Any%
-        </button><button class="tablink" onclick="openPage('five-stars', this, '#101010')">
-            5 Stars%
-        </button><button class="tablink" onclick="openPage('100', this, '#101010')">
-            100%
-        </button><button class="tablink" onclick="openPage('no-skips', this, '#101010')">
-            No Skips Runs
-        </button><button class="tablink" onclick="openPage('dlc', this, '#101010')">
-            DLC Runs
-        </button>
+           <h4 style="text-align: center; color: #ddd; margin: 10px auto; width: 60%;">
+               Categories include common speedrunning categories, as well as some unique to L.A. Noire. Explore by clicking on the badges (hold/click for mobile) and see what you like!
+           </h4>
 
-        <div id="any" class="tabcontent">
+       </div>
 
-            <p>
+       <div class="row category-row">
+           <div class="col span-1-of-2" id="any2">
+              <h3 class="category-header"> Any% </h3>
+              <div class="category-img-container">
+                  <img src="resources/img/category-icons/any.png" class="category-img">
+                  <a href="any%25.html">
+                      <div id="category-desc">
+                          <p>The most common speedrunning category in any game, best for anyone just getting started!</p>
+                      </div>
+                  </a>
+              </div>
+           </div>
+           <div class="col span-1-of-2" id="5star">
+              <h3 class="category-header"> 5 Star% </h3>
+              <div class="category-img-container">
+                  <img src="resources/img/category-icons/5star.png" class="category-img">
+                  <a href="5star%25.html" >
+                      <div id="category-desc">
+                          <p>Goal is to finish every case with a 5 Star rating as fast as possible!</p>
+                      </div>
+                  </a>
 
-                The Any% run is your typical speedrun: getting to the end of the story or campaign as fast as possible. Any% is about manipulating every possible concept about the game to get to the end as fast as possible.
-
-            </p>
-            <br>
-            <br>
-            <a href="any%25.html" class="btn-ghost"> Learn more! </a>
-            <p>or</p>
-            <a href="any%25-the-drivers-seat.html" class="btn-ghost"> Start on the first case! </a>
-
-        </div>
-
-        <div id="five-stars" class="tabcontent">
-
-            <p>
-
-                5 Stars% follows the same rules as the Any% run, but you must complete 5 stars with every case. It doesn’t actually involve getting every clue or asking every question, but just enough to get a 5 star rating.
-
-            </p>
-            <br>
-            <br>
-
-            <a href="5star%25.html" class="btn-ghost"> Learn more! </a>
-            <p>or</p>
-            <a href="coming-soon.html" class="btn-ghost"> Start on the first case! </a>
-
-        </div>
-
-        <div id="100" class="tabcontent">
-
-            <p>
-
-                100% is exactly what it sounds like, achieve 100% in the game in the fastest time by completing all the cases, all the side missions, and all the collectibles.
-
-            </p>
-            <br>
-            <br>
-            <a href="100%25.html" class="btn-ghost"> Learn more! </a>
-            <p>or</p>
-            <a href="coming-soon.html" class="btn-ghost"> Start on the first case! </a>
-
-        </div>
-
-        <div id="no-skips" class="tabcontent">
-
-            <p>
-
-                No Skips is a variation on all the main categories, where now the driving and action cannot be skipped and must be completed. This will have the more classic GTA speedrunning feeling.
-
-            </p>
-            <br>
-            <br>
-            <a href="noskips.html" class="btn-ghost"> Learn more! </a>
-            <p>or</p>
-            <a href="coming-soon.html" class="btn-ghost"> Start on the first case! </a>
-
-        </div>
-
-        <div id="dlc" class="tabcontent">
-
-            <p>
-
-                There’s a way to turn this off if you bought L.A. Noire through Steam, but if you have a remastered version on console or just feel like it, then this is for you.
-
-            </p>
-            <br>
-            <br>
-            <a href="dlc.html" class="btn-ghost"> Learn more! </a>
-            <p>*DLC cases will be embedded within the guides of all runs*</p>
-
-        </div>
+              </div>
+           </div>
+       </div>
+       <div class="row category-row">
+           <div class="col span-1-of-2" id="1002">
+              <h3 class="category-header"> 100% </h3>
+              <div class="category-img-container">
+                  <img src="resources/img/category-icons/100.png" class="category-img">
+                  <a href="100%25.html">
+                      <div id="category-desc">
+                          <p>Getting 100% completion in the game as fast as possible! It may not be true 100% but it's what the game counts as 100%!</p>
+                      </div>
+                  </a>
+              </div>
+           </div>
+           <div class="col span-1-of-2" id="noskips">
+              <h3 class="category-header"> No Skips </h3>
+              <div class="category-img-container">
+                  <img src="resources/img/category-icons/no-skips.png" class="category-img">
+                  <a href="noskips.html">
+                      <div id="category-desc">
+                          <p>
+                              A modifier to any speedrun that doesn't allow action sequence skips and driving skips that make any speedrun more challenging!
+                          </p>
+                      </div>
+                  </a>
+              </div>
+           </div>
+       </div>
+       <div class="row category-row">
+           <div class="col span-1-of-2" id="dlc2">
+              <h3 class="category-header"> DLC </h3>
+              <div class="category-img-container">
+                  <img src="resources/img/category-icons/dlc.png" class="category-img">
+                  <a href="dlc.html">
+                      <div id="category-desc">
+                          <p>Another modifier that implements the DLC cases within any of the speedrunning categories</p>
+                      </div>
+                  </a>
+              </div>
+           </div>
+           <div class="col span-1-of-2" id="other">
+              <h3 class="category-header"> Misc. </h3>
+              <div class="category-img-container">
+                  <img src="resources/img/category-icons/other.png" class="category-img">
+                  <a href="coming-soon.html">
+                      <div id="category-desc">
+                          <p>Miscellaneous categories that don't necessarily fit the mold of the other categories</p>
+                      </div>
+                  </a>
+              </div>
+           </div>
+       </div>
 
     </section>
+
+    <!-- ABOUT SECTION -->
 
     <section class="about">
 
@@ -182,22 +173,29 @@
 
         <div class="row">
             <p>
-                First and foremost, I am a regular guy who started to get into speedrunning after watching his best friend do Paper Mario runs. I was playing GTA IV, so conveniently that’s what I started speedrunning first. Then I bought L.A. Noire and after completing the story, perhaps I could speedrun this game as well.
-                
-                <br><br>
+                My name is Noah, and I go by Hydrox48 on Twitch and all other social media platforms.
+            </p>
+            <p>
+                I decided to make this website over the summer of 2018 as a result of my online class of web coding over the summer. I learned HTML, CSS, and a little bit of jQuery through this one class, as I had been interested in web design since I started my journey in becoming a computer science major.
+            </p>
+            <p>
+                After taking this class, I was gathering ideas of what I could use these skills in. And since L.A. Noire speedrunning is such a unique skill, I thought I could build a website as a guide for anyone looking into all things L.A. Noire speedrunning. Keep in mind that this is separate from the L.A. Noire wiki, this is more of an L.A. Noire speedrunning wiki. This won't give you any trivia on the type of hat that Cole Phelps wears, so it'll be assumed that you have a baseline understanding of the game and its controls.
+            </p>
 
-                I got into web design after trying to further progress my knowledge into programming. I had always wondered how websites were made without the use of something like Squarespace. Nonetheless, I learned the basics and decided to make this website.
+            <p>
+                Let me share to you a little bit of my background on speedrunning. I remember the first time I learned about it was when my best friend introduced me to Paper Mario speedrunning. He was doing all these frame perfect glitches to get past hours of content, and I was blown away. I never really played Paper Mario, but I loved Grand Theft Auto and similar games like the popular series. That's what led me to speedrun the games that I did as you can see behind this text.
+            </p>
 
-                <br><br>
-
-                This is honestly meant to be just a fun project to try and refine my style as a web developer. However, if anyone is able to use this as a resource to help them speedrun L.A. Noire, then that is a happy byproduct.
-
+            <p>
+                Now we are here on this website, where now there is a full blown guide to specifically learning to speedrun L.A. Noire, I really connected with this run and its fullest possibilities that can be explored. I hope you enjoy your stay here on the L.A. Noire Speedrunner's Guide!
             </p>
 
         </div>
 
 
     </section>
+
+    <!-- FEEDBACK SECTION -->
 
     <section class="section-form" id="feedback">
 
@@ -211,19 +209,19 @@
         <div class="row">
 
             <form method="post" action="mailer.php" class="contact-form">
-                
+
                 <div class="row">
                 <?php
                     if ($_GET['success'] == 1) {
-                        echo 
+                        echo
                             "<div class=\"form-messages success\"> Thank you! Your message has been sent! </div>";
                     } if ($_GET['success'] == -1) {
                         echo
                             "<div class=\"form-messages error\"> Something went wrong, try again! </div>";
-                    }     
-                          
+                    }
+
                 ?>
-                    
+
                 </div>
 
                 <div class="row">
@@ -274,12 +272,12 @@
 
     <footer id="footer">
 
-
     </footer>
 
     <script src="https://cdn.jsdelivr.net/gh/scottjehl/Respond@1.4.2/src/respond.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 
     <script src="resources/js/script.js"></script>
 

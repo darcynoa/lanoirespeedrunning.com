@@ -288,19 +288,37 @@ header {
 
 }
 
-#test1 {
+#category-desc {
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 99%;
+    top: 1%;
+    left: 22.44%;
+    height: 97%;
     width: 55%;
-    margin: 0 212px;
-    opacity: 2;
+    opacity: 0;
     background-color: #000;
     border-radius: 100%;
-    transform: rotateY(90deg);
-    transition: 1s;
+    color: #fff;
+    transition: opacity 0.4s ease;
 }
+
+#category-desc:active,
+#category-desc:hover {
+    opacity: 0.8;
+}
+
+#category-desc p {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    font-size: 120%;
+    text-align: center;
+    line-height: 160%;
+    opacity: 1;
+    margin: 0 auto;
+}
+
+
 
 
 
