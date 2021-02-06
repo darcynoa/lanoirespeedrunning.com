@@ -36,6 +36,10 @@
 
 <body>
 
+    <div id="sidenav">
+
+    </div>
+
     <!-- HEADER SECTION -->
 
     <header>
@@ -46,11 +50,8 @@
 
         </div>
 
-        <div id="sidenav">
 
-        </div>
-
-        <div class="row new-post">
+        <div class="new-post">
 
             <a href="blog-001-new-cop-in-town.html">
                 <img src="resources/img/blog-post-img/blog001-min.jpg" alt="Cole Phelps in Uniform" style="width: 100%;">
@@ -72,92 +73,92 @@
 
     <section class="categories">
 
-       <div class="row">
-           <h2 style="margin: 40px;">
-               Speedrunning Categories
-           </h2>
+        <div class="row">
+            <h2 style="margin: 40px;">
+                Speedrunning Categories
+            </h2>
 
-           <h4 style="text-align: center; color: #ddd; margin: 10px auto; width: 60%;">
-               Categories include common speedrunning categories, as well as some unique to L.A. Noire. Explore by clicking on the badges (hold/click for mobile) and see what you like!
-           </h4>
+            <h4 style="text-align: center; color: #ddd; margin: 10px auto; width: 60%;">
+                Categories include common speedrunning categories, as well as some unique to L.A. Noire. Explore by clicking on the badges (hold/click for mobile) and see what you like!
+            </h4>
 
-       </div>
+        </div>
 
-       <div class="row category-row">
-           <div class="col span-1-of-2" id="any2">
-              <h3 class="category-header"> Any% </h3>
-              <div class="category-img-container">
-                  <img src="resources/img/category-icons/any.png" class="category-img">
-                  <a href="any%25.html">
-                      <div id="category-desc">
-                          <p>The most common speedrunning category in any game, best for anyone just getting started!</p>
-                      </div>
-                  </a>
-              </div>
-           </div>
-           <div class="col span-1-of-2" id="5star">
-              <h3 class="category-header"> 5 Star% </h3>
-              <div class="category-img-container">
-                  <img src="resources/img/category-icons/5star.png" class="category-img">
-                  <a href="5star%25.html" >
-                      <div id="category-desc">
-                          <p>Goal is to finish every case with a 5 Star rating as fast as possible!</p>
-                      </div>
-                  </a>
+        <div class="row category-row">
+            <div class="col span-1-of-2" id="any2">
+                <h3 class="category-header"> Any% </h3>
+                <div class="category-img-container">
+                    <img src="resources/img/category-icons/any.png" class="category-img">
+                    <a href="any%25.html">
+                        <div id="category-desc">
+                            <p>The most common speedrunning category in any game, best for anyone just getting started!</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2" id="5star">
+                <h3 class="category-header"> 5 Star% </h3>
+                <div class="category-img-container">
+                    <img src="resources/img/category-icons/5star.png" class="category-img">
+                    <a href="5star%25.html">
+                        <div id="category-desc">
+                            <p>Goal is to finish every case with a 5 Star rating as fast as possible!</p>
+                        </div>
+                    </a>
 
-              </div>
-           </div>
-       </div>
-       <div class="row category-row">
-           <div class="col span-1-of-2" id="1002">
-              <h3 class="category-header"> 100% </h3>
-              <div class="category-img-container">
-                  <img src="resources/img/category-icons/100.png" class="category-img">
-                  <a href="100%25.html">
-                      <div id="category-desc">
-                          <p>Getting 100% completion in the game as fast as possible! It may not be true 100% but it's what the game counts as 100%!</p>
-                      </div>
-                  </a>
-              </div>
-           </div>
-           <div class="col span-1-of-2" id="noskips">
-              <h3 class="category-header"> No Skips </h3>
-              <div class="category-img-container">
-                  <img src="resources/img/category-icons/no-skips.png" class="category-img">
-                  <a href="noskips.html">
-                      <div id="category-desc">
-                          <p>
-                              A modifier to any speedrun that doesn't allow action sequence skips and driving skips that make any speedrun more challenging!
-                          </p>
-                      </div>
-                  </a>
-              </div>
-           </div>
-       </div>
-       <div class="row category-row">
-           <div class="col span-1-of-2" id="dlc2">
-              <h3 class="category-header"> DLC </h3>
-              <div class="category-img-container">
-                  <img src="resources/img/category-icons/dlc.png" class="category-img">
-                  <a href="dlc.html">
-                      <div id="category-desc">
-                          <p>Another modifier that implements the DLC cases within any of the speedrunning categories</p>
-                      </div>
-                  </a>
-              </div>
-           </div>
-           <div class="col span-1-of-2" id="other">
-              <h3 class="category-header"> Misc. </h3>
-              <div class="category-img-container">
-                  <img src="resources/img/category-icons/other.png" class="category-img">
-                  <a href="coming-soon.html">
-                      <div id="category-desc">
-                          <p>Miscellaneous categories that don't necessarily fit the mold of the other categories</p>
-                      </div>
-                  </a>
-              </div>
-           </div>
-       </div>
+                </div>
+            </div>
+        </div>
+        <div class="row category-row">
+            <div class="col span-1-of-2" id="1002">
+                <h3 class="category-header"> 100% </h3>
+                <div class="category-img-container">
+                    <img src="resources/img/category-icons/100.png" class="category-img">
+                    <a href="100%25.html">
+                        <div id="category-desc">
+                            <p>Getting 100% completion in the game as fast as possible! It may not be true 100% but it's what the game counts as 100%!</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2" id="noskips">
+                <h3 class="category-header"> No Skips </h3>
+                <div class="category-img-container">
+                    <img src="resources/img/category-icons/no-skips.png" class="category-img">
+                    <a href="noskips.html">
+                        <div id="category-desc">
+                            <p>
+                                A modifier to any speedrun that doesn't allow action sequence skips and driving skips that make any speedrun more challenging!
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row category-row">
+            <div class="col span-1-of-2" id="dlc2">
+                <h3 class="category-header"> DLC </h3>
+                <div class="category-img-container">
+                    <img src="resources/img/category-icons/dlc.png" class="category-img">
+                    <a href="dlc.html">
+                        <div id="category-desc">
+                            <p>Another modifier that implements the DLC cases within any of the speedrunning categories</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2" id="other">
+                <h3 class="category-header"> Misc. </h3>
+                <div class="category-img-container">
+                    <img src="resources/img/category-icons/other.png" class="category-img">
+                    <a href="coming-soon.html">
+                        <div id="category-desc">
+                            <p>Miscellaneous categories that don't necessarily fit the mold of the other categories</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
 
     </section>
 
@@ -286,6 +287,5 @@
     <script src="resources/js/includes.js"></script>
 
 </body>
-
 
 </html>

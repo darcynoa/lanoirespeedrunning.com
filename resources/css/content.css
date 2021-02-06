@@ -80,8 +80,9 @@ Playstation
     margin-bottom: 20px;
 }
 
-figure div ul {
+.extraTipsList {
     list-style-position: inside;
+
 }
 
 ol {

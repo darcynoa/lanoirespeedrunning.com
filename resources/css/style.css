@@ -169,8 +169,8 @@ input[type=submit]:active {
 /* ---- The Header ---- */
 
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.2))), url(img/Title%20in%20DX11-min.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(img/Title%20in%20DX11-min.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.7))), url(img/Title%20in%20DX11-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(img/Title%20in%20DX11-min.jpg);
     
     background-size: cover;
     background-position: top;
@@ -216,6 +216,9 @@ header {
     color: #ffbf00;
 }
 
+/*********************************
+ ******* Blog Post ***************
+ *********************************/
 
 .new-post{
     position: relative;
@@ -279,7 +282,9 @@ header {
 }
 
 .category-img {
+    -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
+    -webkit-transition: .5s;
     transition: .5s;
 }
 
@@ -298,6 +303,7 @@ header {
     background-color: #000;
     border-radius: 100%;
     color: #fff;
+    -webkit-transition: opacity 0.4s ease;
     transition: opacity 0.4s ease;
 }
 

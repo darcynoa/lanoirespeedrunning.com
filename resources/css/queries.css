@@ -16,6 +16,8 @@
     
     .new-post { width: 70%; }
     
+    .new-post-content { left: 20px; }
+
     header { height: 90vh; }
     
     .about { height: 83vh; }
@@ -69,14 +71,14 @@
     
 }
 
-@media only screen and (max-width: 481px ) {
+@media only screen and (max-width: 480px ) {
     
     .btn-ghost {
         text-align: center;
     }
     
     header {
-        height: 100vh;
+        height: 80vh;
         background-size: 150%;
         background-repeat: no-repeat;
         background-position: 50% 100%;
@@ -86,9 +88,9 @@
 
     .new-post-content {
         width: 90%;
-        font-size: 80%;
-        bottom: 142px;
-        left: 18px;
+        font-size: 70%;
+        bottom: 0px;
+        left: 0px;
         padding: 10px;
     }
     
