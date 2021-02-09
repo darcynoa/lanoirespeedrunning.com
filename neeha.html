@@ -12,14 +12,25 @@
 <body>
     <!--<h1>Will You Be My Valentine?</h1>-->
 
-    <div class="heart" id="a"></div>
-    <div class="heart" id="b"></div>
+    <div class="heart"></div>
 
     <script>
 
-        const heart = document.getElementsByClassName('heart');
+        setInterval(createHeart, 5000);
 
-        const test = document.querySelector('#a');
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.classList.add('heart');
+            heart.style.left = Math.random() * window.innerWidth + 'px';
+
+            document.body.appendChild(heart);
+
+            setTimeout(() => {
+                heart.remove();
+            }, 24000);
+        }
+
+
 
 
     </script>
