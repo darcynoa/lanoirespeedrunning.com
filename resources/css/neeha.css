@@ -24,14 +24,45 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
 
     position: relative;
+}
+
+.main {
+    text-align: center;
+    z-index: 4;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+button {
+    margin-top: 20px;
+    height: 50px;
+    width: 80px;
+    background: -webkit-gradient(linear, left bottom, right top, from(#ffb0e1), to(#fac6e5));
+    background: linear-gradient(to right top, #ffb0e1, #fac6e5);
+    font-family: 'Indie Flower', cursive;
+    color: #96304c;
+    font-size: 30px;
+    border: none;
+    opacity: 1;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+}
+
+button:focus{
+    border: none;
+    opacity: 0;
 }
 
 .heart {
     position: absolute;
     top: -10px;
-    left: 0px;
+    left: 140px;
     background-color: #ff80ce;
     display: inline-block;
     height: 25px;
