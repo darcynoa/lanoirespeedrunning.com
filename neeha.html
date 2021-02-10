@@ -19,12 +19,12 @@
     <script>
         'use strict';
 
-        setInterval(createHeart, 5000);
+        setInterval(createHeart, 3500);
 
         function createHeart() {
             const heart = document.createElement('div');
             heart.classList.add('heart');
-            heart.style.left = Math.random() * window.innerWidth - 30 + 'px';
+            heart.style.left = Math.random() * window.innerWidth - 50 + 'px';
 
             document.body.appendChild(heart);
 
