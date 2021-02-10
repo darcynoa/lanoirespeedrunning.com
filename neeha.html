@@ -14,7 +14,10 @@
     <h2 class="main2" style="display: none;">Will you be my Valentine?</h2>
 
     <div class="heart"></div>
-    <button class="yes">Yes?</button>
+    <div class="buttons">
+        <button class="yes">Yes?</button>
+        <button class="no"><a href="bye.html">Okay bye</a></button>
+    </div>
 
     <script>
         'use strict';
@@ -35,11 +38,8 @@
 
         function nextStep () {
             console.log('Hi');
-            document.body.style.backgroundColor = 'red';
+            document.querySelector('.no').style.opacity = 0;
             let main = document.querySelector('.main');
-//            main.style.display = 'none';
-//            let main2 = document.querySelector('.main2');
-//            main2.style.display = 'block';
             main.style.opacity = '0';
             console.log('Opacity is now 0');
             setTimeout(function() {theNextStep(main)}, 1000);
