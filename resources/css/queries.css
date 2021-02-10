@@ -5,9 +5,7 @@
     #category-desc p { font-size: 90%; }
 
     label { margin-left: 50px;  }
-    
-    .about { height: 93vh; }
-    
+
 }
 
 @media only screen and (max-width: 1024px ) {
@@ -19,8 +17,7 @@
     .new-post-content { left: 20px; }
 
     header { height: 90vh; }
-    
-    .about { height: 83vh; }
+
     
     
 }
