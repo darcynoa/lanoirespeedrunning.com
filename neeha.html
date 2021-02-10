@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title> ❤❤❤❤❤❤❤❤❤❤ </title>
@@ -8,7 +9,19 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 
+    <!-- Favicon stuff -->
+    <link rel="apple-touch-icon" sizes="76x76" href="resources/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+    <link rel="manifest" href="resources/favicons/site.webmanifest">
+    <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#feb400">
+    <link rel="shortcut icon" href="resources/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#feb400">
+    <meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
 </head>
+
 <body>
     <h2 class="main" style="display: block;">Hey Neeha!</h2>
     <h2 class="main2" style="display: none;">Will you be my Valentine?</h2>
@@ -27,22 +40,24 @@
         function createHeart() {
             const heart = document.createElement('div');
             heart.classList.add('heart');
-            heart.style.left = Math.random() * window.innerWidth - 50 + 'px';
+            heart.style.left = Math.random() * window.innerWidth - 60 + 'px';
 
             document.body.appendChild(heart);
 
             setTimeout(() => {
                 heart.remove();
-            }, 24000);
+            }, 20000);
         }
 
-        function nextStep () {
+        function nextStep() {
             console.log('Hi');
             document.querySelector('.no').style.opacity = 0;
             let main = document.querySelector('.main');
             main.style.opacity = '0';
             console.log('Opacity is now 0');
-            setTimeout(function() {theNextStep(main)}, 1000);
+            setTimeout(function() {
+                theNextStep(main)
+            }, 1000);
         }
 
         function theNextStep(main) {
@@ -54,7 +69,7 @@
         const yes = document.querySelector('.yes');
         yes.addEventListener('click', nextStep);
 
-
     </script>
 </body>
+
 </html>
