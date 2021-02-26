@@ -1,4 +1,4 @@
-<h1>This is the official L.A. Noire Speedrunnning Guide</h1>
+<h1>This is the official L.A. Noire Speedrunning Guide</h1>
 
 <p align="center">
     <img src="https://i.ytimg.com/vi/jpL83iH8Srw/maxresdefault.jpg">
