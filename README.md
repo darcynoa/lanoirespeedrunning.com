@@ -12,3 +12,5 @@
 <p>
     However, because of how much content there is, it will truly be a never ending project that will constantly be updated. So come along this ride with me!
 </p>
+
+<a href="https://lanoirespeedrunning.com" style="color: #ffbf00;"> Check it out!!!! </a>
