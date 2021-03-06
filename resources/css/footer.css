@@ -33,9 +33,13 @@ footer .copyright {
 }
 
 #discord:hover {
-    color: 	#7289da;
+    color: #7289da;
 }
 
 #twitch:hover {
     color: #653b7d;
+}
+
+#speedrun:hover {
+    color: rgba(254, 207, 51, 1);
 }
