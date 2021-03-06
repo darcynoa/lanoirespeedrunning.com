@@ -8,7 +8,7 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: rgba(39, 39, 39); /* Black*/
+  background-color: rgba(39, 39, 39);
   overflow-x: hidden; /* Disable horizontal scroll */
   overflow-y: auto;
   padding-top: 60px; /* Place content 60px from the top */
@@ -17,7 +17,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 0px;
+  width: 0px;
 }
 
 /* The navigation menu links */
@@ -27,7 +27,7 @@
   font-size: 100%;
   color: #818181;
   display: block;
-    margin-left: 20px;
+  margin-left: 20px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -47,124 +47,119 @@
 }
 
 #close {
-    padding: 10px;
+  padding: 10px;
 }
 
 .btn-sidenav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 40px 40px 40px 40px;
-    cursor: pointer;
-    font-size: 120%;
-    display: block; /* Change with JS */
-    z-index: '0.999';
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 40px 40px 40px 40px;
+  cursor: pointer;
+  font-size: 120%;
+  display: block; /* Change with JS */
+  z-index: "0.999";
 }
 
+.accordion,
+.subaccordion {
+  border: none;
+  outline: none;
+  cursor: pointer;
 
-.accordion, .subaccordion {
-    border: none;
-    outline: none;
-    cursor: pointer;
-    
-    font-family: 'Montserrat', sans-serif;
-    font-size: 78%;
-    line-height: 29px;
-    
-    width: 100%;
-    padding: 10px 0;
-    background-color: rgba(39,39,39);
-    color: #818181;
-    
-    -webkit-transition: 0.4s;
-    
-    transition: 0.4s;
+  font-family: "Montserrat", sans-serif;
+  font-size: 78%;
+  line-height: 29px;
+
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgba(39, 39, 39);
+  color: #818181;
+
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .accordion:hover {
-    background-color: rgba(49,49,49);
+  background-color: rgba(49, 49, 49);
 }
 
 .accordion i:hover {
-    color: #ffbf00;
+  color: #ffbf00;
 }
 
-.active, .accordian:hover{
-    color: #ffbf00;
+.active,
+.accordian:hover {
+  color: #ffbf00;
 }
 
-.accordion i {  
-     margin: 9px;
-     float: right; 
-    font-size: 150%;
+.accordion i {
+  margin: 9px;
+  float: right;
+  font-size: 150%;
 }
 
 .accordion a {
-    float: left;
-    margin-left: 50px;
+  float: left;
+  margin-left: 50px;
 }
 
 .panel {
-    background-color: rgba(21, 21, 21);
-    color: #818181;
-    max-height: 0;
-    overflow: hidden;
-    -webkit-transition: max-height 0.2s ease-out;
-    transition: max-height 0.2s ease-out;
-    font-size: 90%;
-    
+  background-color: rgba(21, 21, 21);
+  color: #818181;
+  max-height: 0;
+  overflow: hidden;
+  font-size: 90%;
 }
 
 .panel .accordion {
-    margin: none;
-    padding: none;
-    background-color: rgba(21, 21, 21);
+  margin: none;
+  padding: none;
+  background-color: rgba(21, 21, 21);
 }
 
 .panel .accordion:hover {
-    background-color:  rgba(31, 31, 31);
+  background-color: rgba(31, 31, 31);
 }
 
 .subaccordion {
-    padding-left: 40px;
-    font-size: 90%;
+  padding-left: 40px;
+  font-size: 90%;
 }
 
 .panel ul {
-    font-size: 86%;
-    text-align: center;
-    background-color: #010101;
-    list-style: none;
+  font-size: 86%;
+  text-align: center;
+  background-color: #010101;
+  list-style: none;
 }
 
 .panel ul li p {
-    font-size: 100%;
-    padding-top: 10px;
+  font-size: 100%;
+  padding-top: 10px;
 }
 
 .panel ul li div a {
-    float: left;
-    width: 27%;
+  float: left;
+  width: 27%;
 }
 
-
-@media only screen and (max-width: 768px ) {
-    .btn-sidenav {
-        padding: 30px 0px 0px 30px;
-        
-    }
+@media only screen and (max-width: 768px) {
+  .btn-sidenav {
+    padding: 30px 0px 0px 30px;
+  }
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 
-@media only screen and (max-width: 481px ) {
-    .btn-sidenav { 
-        padding: 15px 20px 20px 10px;
-        font-size: 140%;
-        z-index: 1;
-    }
-    
-    .sidenav {
-        background-color: rgba(39, 39, 39)
-    }
+@media only screen and (max-width: 481px) {
+  .btn-sidenav {
+    padding: 15px 20px 20px 10px;
+    font-size: 140%;
+    z-index: 1;
+  }
+
+  .sidenav {
+    background-color: rgba(39, 39, 39);
+  }
 }
