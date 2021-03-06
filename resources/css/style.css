@@ -9,23 +9,27 @@ fonts: Limelight, Montserrat Alternates, Montserrat
 * {
     margin: 0;
     padding: 0;
-     -webkit-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    
+
 }
 
 html,
-body { /* For the whole project */
+body {
+    /* For the whole project */
     background-color: #101010;
     font-size: 25px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
     color: #fff;
     font-weight: 300;
-    
+
 }
 
-.clearfix {zoom: 1}
+.clearfix {
+    zoom: 1
+}
+
 .clearfix:after {
     content: '.';
     clear: both;
@@ -37,21 +41,23 @@ body { /* For the whole project */
 /* ----- Reusables ----- */
 
 h1 {
-     font-family: 'Limelight', Arial, sans-serif;
-     font-size: 200%;
+    font-family: 'Limelight', Arial, sans-serif;
+    font-size: 200%;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 170%;
+    letter-spacing: 1.5px;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'CCFaceFront-Italic', 'Montserrat', sans-serif;
     font-size: 78%;
-    line-height: 29px;
+    line-height: 30px;
     padding-top: 40px;
+    letter-spacing: 0.5px;
 }
 
 h4 {
@@ -59,7 +65,11 @@ h4 {
     font-weight: 400;
 }
 
-p, a, ul, ol, figcaption {
+p,
+a,
+ul,
+ol,
+figcaption {
     font-family: 'Montserrat', sans-serif;
     font-size: 78%;
     line-height: 29px;
@@ -130,9 +140,9 @@ input[type=submit] {
     font-size: 95%;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#272727), to(#1d1d1d));
     background-image: linear-gradient(#272727, #1d1d1d);
-    
+
     -webkit-transition: border-color 0.2s, color 0.2s, background-image 0.4s;
-    
+
     transition: border-color 0.2s, color 0.2s, background-image 0.4s;
 }
 
@@ -161,7 +171,9 @@ input[type=submit]:active {
 
 
 
-/*---------------------------------------------------------------------------------------------------------------------  Style for Home Page ----------------------------------------------------------------------------------------------------*/
+/**
+ * Home Page Styling
+ */
 
 
 
@@ -169,11 +181,11 @@ input[type=submit]:active {
 /* ---- The Header ---- */
 
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.7))), url(img/Title%20in%20DX11-min.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(img/Title%20in%20DX11-min.jpg);
-    
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(10, 10, 10, 0.1)), color-stop(rgba(10, 10, 10, 0.3)), to(rgba(10, 10, 10, 1))), url(../img/newHomePage2.jpg);
+    background-image: linear-gradient(rgba(10, 10, 10, 0.1), rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 1)), url(../img/newHomePage2.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: top right;
+    background-repeat: no-repeat;
     height: 100vh;
     background-attachment: scroll;
 }
@@ -188,13 +200,11 @@ header {
     list-style: none;
     color: #fff;
     font-family: 'Montserrat Alternates', sans-serif;
-    
-    
     padding: 10px 13% 0px 13%;
     height: 115px;
 }
 
-.top-nav ul li{
+.top-nav ul li {
     margin-left: 40px;
     float: left
 }
@@ -220,7 +230,7 @@ header {
  ******* Blog Post ***************
  *********************************/
 
-.new-post{
+.new-post {
     position: relative;
     width: 56%;
     margin: 50px auto;
@@ -231,7 +241,7 @@ header {
     width: 800px;
     height: auto;
     margin: auto;
-} 
+}
 
 .new-post-content {
     display: block;
@@ -240,7 +250,7 @@ header {
     bottom: 5px;
     background: #000;
     background: rgba(0, 0, 0, 0.5);
-    
+
     width: 80%;
     padding: 20px;
     color: #fff;
@@ -293,7 +303,7 @@ header {
 
 }
 
-#category-desc {
+.category-desc {
     position: absolute;
     top: 1%;
     left: 22.44%;
@@ -305,19 +315,28 @@ header {
     color: #fff;
     -webkit-transition: opacity 0.4s ease;
     transition: opacity 0.4s ease;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
-#category-desc:active,
-#category-desc:hover {
+.category-desc:active,
+.category-desc:hover {
     opacity: 0.8;
 }
 
-#category-desc p {
+.category-desc p {
     position: absolute;
     top: 20%;
     left: 10%;
     width: 80%;
-    font-size: 120%;
+    font-size: 110%;
     text-align: center;
     line-height: 160%;
     opacity: 1;
@@ -340,7 +359,7 @@ header {
     font-size: 80%;
 }
 
-.tablink:hover{
+.tablink:hover {
     background-color: #777;
 }
 
@@ -357,6 +376,7 @@ header {
     font-size: 100%;
     line-height: 150%;
 }
+
 .tabcontent p:first-child {
     width: 80%;
 }
@@ -372,9 +392,9 @@ header {
     line-height: 100%;
 }
 
-#dlc p:last-of-type{
+#dlc p:last-of-type {
     color: rgba(112, 112, 112, 0.56);
-    
+
 }
 
 /* ---- About Section ---- */
@@ -414,7 +434,7 @@ header {
 .form-header p {
     text-align: center;
     margin-bottom: 25px;
-    line-height: 130%; 
+    line-height: 130%;
 }
 
 .contact-form {
