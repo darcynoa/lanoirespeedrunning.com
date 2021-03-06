@@ -1,26 +1,13 @@
-//function openPage( pageName, elmnt, color) {
-//
-//    var i, tabcontent, tablinks;
-//
-//    tabcontent = document.getElementsByClassName("tabcontent");
-//    for (i = 0; i < tabcontent.length; i++) {
-//        tabcontent[i].style.display = "none";
-//    }
-//
-//    tablinks = document.getElementsByClassName("tablink");
-//    for (i = 0; i < tablinks.length; i++) {
-//        tablinks[i].style.backgroundColor = "";
-//        tablinks[i].style.color = "";
-//    }
-//
-//
-//    document.getElementById(pageName).style.display = "block";
-//
-//    elmnt.style.backgroundColor = color;
-//    elmnt.style.color = '#ffbf00';
-//
-//}
-//
-//document.getElementById("defaultOpen").click();
+// `use strict`;
 
+// const categoryRows = document.getElementsByClassName(`category-row`);
 
+// for (let index = 0; index < categoryRows.length; index++) {
+//   let categoryRow = categoryRows[index];
+//   console.log(categoryRow.style.opacity);
+//   let categoryRowProperties = categoryRow.getBoundingClientRect();
+//   if (categoryRowProperties.y <= window.outerHeight) {
+//     categoryRow.style.opacity = 1;
+//     console.log(categoryRow.style.opacity);
+//   }
+// }
