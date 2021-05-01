@@ -1,45 +1,46 @@
 /* --- FOOTER --- */
 
 footer {
-    background-color: #101010;
-    color: #747474;
-    margin-bottom: 20px;
+  background-color: #101010;
+  color: #747474;
+  margin-bottom: 20px;
 }
 
 footer div {
-    padding-top: 0px;
+  padding-top: 0px;
 }
 
 footer .copyright {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .links {
-    list-style: none;
-    margin: 10px;
-    text-align: center;
+  list-style: none;
+  margin: 10px;
+  text-align: center;
 }
 
 .links a {
-    margin: 10px;
-    text-align: left;
-    font-size: 20px;
-    text-decoration: none;
-    color: #747474;
-    font-family: 'Montserrat', sans-serif;
-    -webkit-transition: color 0.3s;
-    transition: color 0.3s;
+  text-shadow: none;
+  margin: 10px;
+  text-align: left;
+  font-size: 20px;
+  text-decoration: none;
+  color: #747474;
+  font-family: "Montserrat", sans-serif;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 #discord:hover {
-    color: #7289da;
+  color: #7289da;
 }
 
 #twitch:hover {
-    color: #653b7d;
+  color: #653b7d;
 }
 
 #speedrun:hover {
-    color: rgba(254, 207, 51, 1);
+  color: rgba(254, 207, 51, 1);
 }

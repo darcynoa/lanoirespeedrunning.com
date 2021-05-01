@@ -9,7 +9,6 @@ fonts: Limelight, Montserrat Alternates, Montserrat
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -39,8 +38,9 @@ body {
 /* ----- Reusables ----- */
 
 h1 {
-  font-family: "Limelight", Arial, sans-serif;
-  font-size: 200%;
+  font-family: "Limelight", cursive;
+  font-size: 180%;
+  /* font-weight: 800; */
 }
 
 h2 {
@@ -51,7 +51,7 @@ h2 {
 }
 
 h3 {
-  font-family: "CCFaceFront-Italic", "Montserrat", sans-serif;
+  font-family: "CCFaceFront-Italic", cursive;
   font-size: 78%;
   line-height: 30px;
   padding-top: 40px;
@@ -59,7 +59,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
 
@@ -92,9 +92,7 @@ a:active {
 }
 
 a:hover {
-  text-decoration: underline;
-  -webkit-text-decoration-color: #ffbf00;
-  text-decoration-color: #ffbf00;
+  text-shadow: 0px 0px 2px #fac730;
 }
 
 img {
@@ -124,8 +122,9 @@ figcaption {
   font-weight: 500;
 }
 
-/*----- Buttons -----*/
-
+/**
+ * Button Styles
+ */
 .btn-ghost:link,
 .btn-ghost:visited,
 input[type="submit"] {
@@ -134,16 +133,7 @@ input[type="submit"] {
   padding: 12px;
   font-family: "Montserrat Alternatives", sans-serif;
   font-size: 95%;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#272727),
-    to(#1d1d1d)
-  );
   background-image: linear-gradient(#272727, #1d1d1d);
-
-  -webkit-transition: border-color 0.2s, color 0.2s, background-image 0.4s;
 
   transition: border-color 0.2s, color 0.2s, background-image 0.4s;
 }
@@ -153,13 +143,6 @@ input[type="submit"] {
 input[type="submit"]:hover,
 input[type="submit"]:active {
   color: #ffbf00;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#1d1d1d),
-    to(#151515)
-  );
   background-image: linear-gradient(#1d1d1d, #151515);
   border-color: #ffbf00;
 }
@@ -183,63 +166,75 @@ input[type="submit"]:active {
 /* ---- The Header ---- */
 
 header {
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(10, 10, 10, 0.1)),
-      color-stop(rgba(10, 10, 10, 0.3)),
-      to(rgba(10, 10, 10, 1))
-    ),
-    url(../img/newHomePage2.jpg);
-  background-image: linear-gradient(
-      rgba(10, 10, 10, 0.1),
-      rgba(10, 10, 10, 0.3),
-      rgba(10, 10, 10, 1)
-    ),
+  background-image: linear-gradient(rgba(16, 16, 16, 0.1), rgba(16, 16, 16, 0.1), rgba(16, 16, 16, 0.1), rgba(16, 16, 16, 1)),
     url(../img/newHomePage2.jpg);
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
   height: 100vh;
-  background-attachment: scroll;
 }
 
-/* Header Navigation */
-
-.top-nav {
-  border-bottom: 1.5px solid #fff;
+.logo {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  font-size: 1.5em;
+  padding-left: 10%;
+  opacity: 0.9;
 }
 
-.top-nav ul {
-  list-style: none;
-  color: #fff;
-  font-family: "Montserrat Alternates", sans-serif;
-  padding: 10px 13% 0px 13%;
-  height: 115px;
+.fadeIn {
+  -webkit-animation: fadeIn 5000ms ease-in;
+  animation: fadeIn 5000ms ease-in;
 }
 
-.top-nav ul li {
-  margin-left: 40px;
-  float: left;
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.9;
+  }
 }
 
-.top-nav ul li h1 {
-  color: #fff;
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.9;
+  }
 }
 
-.top-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  -webkit-transition: color 0.2s;
-  transition: color 0.2s;
-  float: left;
-  margin-bottom: 10px;
-}
+/* @keyframes fadeIn {
+  0% {
+    background: linear-gradient(rgba(16, 16, 16, 1), rgba(16, 16, 16, 1));
+  }
 
-.top-nav ul li a:hover {
-  color: #ffbf00;
-}
+  25% {
+    background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 1));
+  }
+
+  50% {
+    background: linear-gradient(rgba(16, 16, 16, 0), rgba(16, 16, 16, 1));
+  }
+
+  75% {
+    background: linear-gradient(rgba(16, 16, 16, 0), rgba(16, 16, 16, 0.5));
+  }
+
+  100% {
+    background: linear-gradient(rgba(16, 16, 16, 0), rgba(16, 16, 16, 0));
+  } */
+
+/* .logo--top {
+  font-weight: 700;
+  font-size: 1em;
+  letter-spacing: 1.5px;
+} */
 
 /*********************************
  ******* Blog Post ***************
@@ -269,7 +264,6 @@ header {
   width: 80%;
   padding: 20px;
   color: #fff;
-  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
@@ -286,7 +280,6 @@ header {
 .new-post a {
   color: #d0d0d0;
   text-decoration: none;
-  -webkit-transition: color 0.5s;
   transition: color 0.5s;
 }
 
@@ -297,6 +290,10 @@ header {
 
 /* ---- Categories Section ---- */
 
+.categories {
+  /* background: linear-gradient(#000, #101010); */
+}
+
 .category-header {
   padding: 30px 0;
   text-align: center;
@@ -304,9 +301,7 @@ header {
 }
 
 .category-img {
-  -webkit-transform: rotateY(0deg);
   transform: rotateY(0deg);
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -324,17 +319,11 @@ header {
   background-color: #000;
   border-radius: 100%;
   color: #fff;
-  -webkit-transition: opacity 0.4s ease;
   transition: opacity 0.4s ease;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
+  overflow: scroll;
 }
 
 .category-desc:active,
@@ -347,8 +336,8 @@ header {
   top: 20%;
   left: 10%;
   width: 80%;
-  font-size: 110%;
   text-align: center;
+  font-size: 100%;
   line-height: 160%;
   opacity: 1;
   margin: 0 auto;
@@ -406,14 +395,6 @@ header {
 /* ---- About Section ---- */
 
 .about {
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.7)),
-      to(rgba(0, 0, 0, 0.7))
-    ),
-    url(img/about-background-image-min.png);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(img/about-background-image-min.png);
   background-position: left;
@@ -501,4 +482,5 @@ input[type="submit"] {
 
 .error {
   background-color: rgba(165, 42, 42, 0.52);
+}
 }

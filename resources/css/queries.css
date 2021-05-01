@@ -1,138 +1,176 @@
-@media only screen and (max-width: 1400px ) {
-    
-    .row { padding: 0 2%; }
-    
-    #category-desc p { font-size: 90%; }
+@media only screen and (max-width: 1400px) {
+  .row {
+    padding: 0 2%;
+  }
 
-    label { margin-left: 50px;  }
+  #category-desc p {
+    font-size: 90%;
+  }
 
+  label {
+    margin-left: 50px;
+  }
 }
 
-@media only screen and (max-width: 1024px ) {
-    
-     body { font-size: 21px; } /* B/c all our other font sizes were in percentages, all font sizes will be based off of this absolute measure */
-    
-    .new-post { width: 70%; }
-    
-    .new-post-content { left: 20px; }
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 21px;
+  } /* B/c all our other font sizes were in percentages, all font sizes will be based off of this absolute measure */
 
-    header { height: 90vh; }
+  .category-desc p {
+    font-size: 80%;
+  }
 
-    
-    
+  header {
+    height: 90vh;
+  }
 }
 
-@media only screen and (max-width: 798px ) {
-    
-    body { 
-        font-size: 18px; 
-        font-weight: 400;
-    }
-    
-    .row { padding: 0 4%; }
-    
-    .col { width: 100%; }
+@media only screen and (max-width: 798px) {
+  body {
+    font-size: 18px;
+    font-weight: 400;
+  }
 
-    .new-post { width: 90%; }
-    
-    .new-post-content { left: 40px; bottom: 20px;}
+  .row {
+    padding: 0 4%;
+  }
 
-    header { height: 90vh; }
-    
-    div ul li { width: 100%; }
-    
-    #category-desc p { font-size: 70%; }
+  .col {
+    width: 100%;
+  }
 
-    .tablink { padding: 20px 1px; }
-    
-    .tabcontent { height: 370px}
-    
-    .tabcontent p:first-child { width: 100%; }
-    
-    .about { height: 40%; }
-    
-    .contact-form { width: 100%; }
-    
-    .form-header p { font-size: 83%;}
-    
-    label { margin-left: 0px; }
-    
-    input[type=submit] { 
-        width: 40%;
-        font-size: 104%;
-    }
-    
-    footer div .copyright { margin-bottom: 0;}
-    
-    footer div .links p { margin-right: 0; margin-top: 6.2% }
-    
+  .new-post {
+    width: 90%;
+  }
+
+  .new-post-content {
+    left: 40px;
+    bottom: 20px;
+  }
+
+  header {
+    height: 90vh;
+  }
+
+  div ul li {
+    width: 100%;
+  }
+
+  #category-desc p {
+    font-size: 70%;
+  }
+
+  .tablink {
+    padding: 20px 1px;
+  }
+
+  .tabcontent {
+    height: 370px;
+  }
+
+  .tabcontent p:first-child {
+    width: 100%;
+  }
+
+  .about {
+    height: 40%;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .form-header p {
+    font-size: 83%;
+  }
+
+  label {
+    margin-left: 0px;
+  }
+
+  input[type="submit"] {
+    width: 40%;
+    font-size: 104%;
+  }
+
+  footer div .copyright {
+    margin-bottom: 0;
+  }
+
+  footer div .links p {
+    margin-right: 0;
+    margin-top: 6.2%;
+  }
 }
 
-@media only screen and (max-width: 480px ) {
-    
-    .btn-ghost {
-        text-align: center;
-    }
-    
-    header {
-        height: 80vh;
-        background-size: 150%;
-        background-repeat: no-repeat;
-        background-position: 50% 100%;
-    }
-    
-    .new-post img { border: 1px solid #444; }
+@media only screen and (max-width: 480px) {
+  .btn-ghost {
+    text-align: center;
+  }
 
-    .new-post-content {
-        width: 90%;
-        font-size: 70%;
-        bottom: 0px;
-        left: 0px;
-        padding: 10px;
-    }
-    
-    .new-post-content p {
-        display: none;
-    }
-    
-    .tablink { 
-        padding: 20px 0;
-        width: 100%
-    }
-    
-    .tabcontent {
-        height: 80vh;
-    }
-    
-    .tabcontent a {
-        width: 100%;
-        height: auto;
-    }
-    
-    .tabcontent p:last-of-type {
-        margin: 20px 0px;
-        width: 100%;
-        text-align: center;
-    }
-    
-    .about { height: 40%; }
-    
-    .section-form input, .section-form textarea {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-     
-    input[type=submit] { 
-        margin: 0 30%;
-    }
-    
+  header {
+    background-position: right top;
+  }
+
+  .new-post img {
+    border: 1px solid #444;
+  }
+
+  .new-post-content {
+    width: 90%;
+    font-size: 70%;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+  }
+
+  .new-post-content p {
+    display: none;
+  }
+
+  .tablink {
+    padding: 20px 0;
+    width: 100%;
+  }
+
+  .tabcontent {
+    height: 80vh;
+  }
+
+  .tabcontent a {
+    width: 100%;
+    height: auto;
+  }
+
+  .tabcontent p:last-of-type {
+    margin: 20px 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .about {
+    height: 40%;
+  }
+
+  .section-form input,
+  .section-form textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  input[type="submit"] {
+    margin: 0 30%;
+  }
 }
 
 @media only screen and (max-width: 376px) {
-    .new-post-content {
-        left: 17px;
-        bottom: 119px;
-    }
+  .new-post-content {
+    left: 17px;
+    bottom: 119px;
+  }
 
-    #category-desc p { font-size: 60%; }
+  #category-desc p {
+    font-size: 60%;
+  }
 }
