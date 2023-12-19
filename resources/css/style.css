@@ -179,15 +179,25 @@ header {
   width: -moz-fit-content;
   width: fit-content;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
   padding-left: 10%;
   opacity: 0.9;
 }
 
-.fadeIn {
-  -webkit-animation: fadeIn 5000ms ease-in;
-  animation: fadeIn 5000ms ease-in;
+.header__hero {
+  padding-top: 8rem;
+  padding-left: 10vw;
 }
+
+.header__hero__headline {
+  font-size: 240%;
+}
+
+.fadeIn {
+  -webkit-animation: fadeIn 1300ms ease-in-out;
+  animation: fadeIn 1300ms ease-in-out;
+}
+
 
 @-webkit-keyframes fadeIn {
   0% {
@@ -208,27 +218,6 @@ header {
     opacity: 0.9;
   }
 }
-
-/* @keyframes fadeIn {
-  0% {
-    background: linear-gradient(rgba(16, 16, 16, 1), rgba(16, 16, 16, 1));
-  }
-
-  25% {
-    background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 1));
-  }
-
-  50% {
-    background: linear-gradient(rgba(16, 16, 16, 0), rgba(16, 16, 16, 1));
-  }
-
-  75% {
-    background: linear-gradient(rgba(16, 16, 16, 0), rgba(16, 16, 16, 0.5));
-  }
-
-  100% {
-    background: linear-gradient(rgba(16, 16, 16, 0), rgba(16, 16, 16, 0));
-  } */
 
 /* .logo--top {
   font-weight: 700;
@@ -289,10 +278,6 @@ header {
 }
 
 /* ---- Categories Section ---- */
-
-.categories {
-  /* background: linear-gradient(#000, #101010); */
-}
 
 .category-header {
   padding: 30px 0;
